@@ -1,0 +1,22 @@
+.form{
+    box-shadow: 0 0 30px 10px #eee;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    .form__inner{
+        margin-top: 40px;
+        div{
+            width: 100%;
+        }
+    }
+    button{
+        margin-top: 40px;
+    }
+    .link{
+        margin: 0 auto;
+    }
+}

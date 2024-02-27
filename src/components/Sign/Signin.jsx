@@ -9,6 +9,7 @@ let user = {
 }
 
 function Signin() {
+  
   const navigate = useNavigate()
   function fnSetData(e){
     e.preventDefault()
@@ -20,6 +21,7 @@ function Signin() {
       navigate('/')
     }else{
       window.localStorage.setItem('token','USER NOT FOUND')
+      alert("noto'g'ri password yoki login")
     }
   }
   return (
